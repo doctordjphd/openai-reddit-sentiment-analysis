@@ -4,8 +4,8 @@ from pathlib import Path
 import pandas as pd
 from kaggle.api.kaggle_api_extended import KaggleApi
 
-KAGGLE_USERNAME = "djhaskell"
-KAGGLE_KEY = "KGAT_5f09003d56cc2390585b1d65ca565856"
+KAGGLE_USERNAME = "####"
+KAGGLE_KEY = "####"
 
 os.environ["KAGGLE_USERNAME"] = KAGGLE_USERNAME
 os.environ["KAGGLE_KEY"] = KAGGLE_KEY
@@ -106,3 +106,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
